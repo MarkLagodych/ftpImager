@@ -1,0 +1,1 @@
+set theme_color "#6fb4d9"
