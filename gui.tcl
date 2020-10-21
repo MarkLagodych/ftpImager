@@ -8,7 +8,7 @@ encoding system utf-8 ;# For displaying non-latin ftp paths correctly
 wm title    . ftpImager
 wm geometry . 800x600
 wm minsize  . 710 380
-wm iconbitmap . ftpicon.ico
+wm iconbitmap . images/ftpicon.ico
 
 # --------------------------------Menu---------------------------------
 menu .menu
