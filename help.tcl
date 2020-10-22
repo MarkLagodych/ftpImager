@@ -1,8 +1,9 @@
 set infoText \
-"________________________________________
+"
+_________________________________________
 ________________ftpImager________________
-____________version 1.0.1 alpha__________
-______________Information________________
+_______________version 1.1_______________
+_______________Information_______________
 _________________________________________
 
 =============== Program =================
@@ -11,7 +12,8 @@ jpeg, png, gif, bmp, ico, ps, tiff, pcx,
 ppm, sgi, sun, tga, xbm, xpm.
 
 =============== Settings ================
-Look at ftp_settings.tcl file.
+See ftp_settings.tcl and gui_theme.tcl
+files.
 
 ============ Double-clicks ==============
 When you double-click in the directory 
