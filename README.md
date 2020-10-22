@@ -5,6 +5,7 @@ The whole functionality is ONLY VIEWING, not moving/copying or whatever.
 
 # Features
 * Supported formats: jpeg, png, gif, bmp, ico, ps, tiff, pcx, ppm, sgi, sun, tga, xbm, xpm.
+* Automatic extension checking. Can be disabled in Options menu.
 * Image can be rotated and fited to the screen size.
 * UTF-8 support.
 
