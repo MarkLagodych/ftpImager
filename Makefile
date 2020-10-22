@@ -14,7 +14,7 @@ tcl_lib   = "tcl85"
 # Tk library
 tk_lib    = "tk85"
 
-# ------------ Needed only if a standalone realease is needed ---------------
+# ------------ Needed only if a standalone release is needed ---------------
 # Note: in this case a ./lib directory will be created
 
 # If set to "yes" then all Tcl/Tk will be copies to ./bin
@@ -29,7 +29,7 @@ all: imgscale ftpImager
 	cp -r Img ./bin/Img
 ifeq ($(copy_tcl_binaries), "yes")
 	cp $(tcl_bind)/*.dll ./bin
-	cp -r $(tcl_libd) ./lib
+	cp -r $(tcl_libd)/* ./lib
 	rm ./lib/*.lib
 	rm ./lib/*.sh
 	rm -r -f ./lib/ppm
@@ -42,6 +42,9 @@ ifeq ($(wildcard ./obj),)
 endif
 ifeq ($(wildcard ./bin),)
 	mkdir ./bin
+endif
+ifeq ($(wildcard ./lib),)
+	mkdir ./lib
 endif
 	echo "Initialization completed!"
 	
