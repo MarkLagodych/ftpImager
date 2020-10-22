@@ -1,6 +1,5 @@
 set infoText \
-"
-_________________________________________
+"_________________________________________
 ________________ftpImager________________
 _______________version 1.1_______________
 _______________Information_______________
@@ -30,7 +29,7 @@ proc showInfo {} {
 	global infoText
 	toplevel .i
 	wm title .i "About ftpImager"
-	wm geometry .i 380x430
+	wm geometry .i 440x430
 	wm resizable .i no no
 	wm iconbitmap .i ""
 	wm attributes .i -topmost yes
